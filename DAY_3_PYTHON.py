@@ -8,4 +8,6 @@ for i in s:
 print(d)
 # command to extract the Key whose Value is maximum in the dictionary
 max_key_value=max(d,key=d.get)
+val=d.values()
 print(max_key_value)
+print(max(val))
